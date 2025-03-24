@@ -1,7 +1,7 @@
 import asyncio
 import httpx
 
-async def http_call_async():
+async def http_call_async():#atividade
     for num in range(1, 6):
         await asyncio.sleep(1)
         print(num)
